@@ -33,6 +33,6 @@ class Program
             {
                 Console.WriteLine("You guessed it!");
             }
-        }   while (userNumber == number);
+        }   while (userNumber != number);
     }
 }
